@@ -2,32 +2,35 @@
 
 ## Assumptions for Product-Market Fit
 
-* The Solana DeFi ecosystem is rapidly expanding with billions in TVL, but lacks comprehensive leveraged trading solutions for the long tail of SPL tokens, especially memecoins and experimental tokens from platforms like pump.fun.
-* Traders are increasingly frustrated with centralized exchanges that require custody of funds, impose high listing fees, and often exclude smaller or newer tokens from derivative trading.
-* The success of centralized leveraged trading platforms (Binance Futures generating $2T+ annual volume) demonstrates massive demand for leverage tools, but users seek decentralized alternatives that eliminate counterparty risk.
-* Solana's high throughput and low transaction costs make frequent position updates and settlements economically viable, unlike Ethereum-based solutions that suffer from high gas costs.
-* The memecoin and experimental token market on Solana represents an underserved segment where traditional exchanges won't provide derivatives, creating a blue ocean opportunity.
+* **Growing Zircuit DeFi Ecosystem:** Zircuit's Layer 2 infrastructure provides an optimal environment for DeFi applications, combining Ethereum's security with enhanced performance, creating opportunities for innovative trading platforms.
+* **Frustration with Centralized Exchange Limitations:** Users are increasingly frustrated with CEX restrictions, KYC requirements, limited token listings, and custody risks, creating demand for decentralized alternatives that offer similar leverage capabilities.
+* **Demand for Decentralized Leverage:** The success of platforms like GMX and dYdX demonstrates strong market demand for decentralized leveraged trading, but most solutions are limited to major tokens or suffer from high gas costs on Ethereum mainnet.
+* **Zircuit's Performance Advantage:** Zircuit's optimized Layer 2 architecture provides fast finality and low transaction costs, making frequent position adjustments and liquidations economically viable while maintaining Ethereum's security guarantees.
+* **Underserved ERC-20 Token Market:** The diverse ecosystem of ERC-20 tokens, including emerging DeFi protocols and experimental tokens, creates a large market of traders seeking leverage on assets that aren't available on traditional centralized platforms.
 
 ## Launch Strategy
 
-* **Beta Expansion:** Continue operating in beta with 2x leverage cap while gathering user feedback and optimizing the platform based on real trading data and user behavior patterns.
-* **Community Building:** Engage with Solana DeFi communities, memecoin traders, and pump.fun users through social media, Discord, and Telegram to build awareness and gather early adopters.
-* **Progressive Decentralization:** Gradually open-source components of the codebase while maintaining security, starting with client-side code and moving toward full smart contract transparency.
-* **Strategic Partnerships:** Collaborate with Solana ecosystem projects, DEX aggregators, and analytics platforms to increase visibility and integration opportunities.
-* **Influencer Engagement:** Partner with Solana and DeFi influencers, especially those focused on memecoin and experimental token trading, to demonstrate platform capabilities.
+* **Beta Expansion:** Continue expanding the current beta on Zircuit, focusing on user feedback and platform stability while gradually increasing leverage limits from 2x to 10x as liquidity grows.
+* **Community Building:** Build within Zircuit's growing DeFi ecosystem through partnerships with existing protocols, influencer collaborations, and educational content about leveraged trading strategies on Layer 2.
+* **Progressive Decentralization:** Transition from centralized oracle system to decentralized price feeds, open-source core components, and implement community governance as the platform matures.
+* **Strategic Partnerships:** Form partnerships with Zircuit DEXs, wallet providers, and DeFi protocols to integrate Lemonloopa as a leverage layer for the broader Layer 2 ecosystem.
+* **Cross-Chain Integration:** Leverage Zircuit's bridging capabilities to attract users from Ethereum mainnet and other Layer 2 solutions seeking better performance and lower costs.
 
 ## User Acquisition and Market Strategy
 
-* **Target Underserved Markets:** Focus on traders of Solana memecoins and experimental tokens who cannot access leverage on traditional platforms, providing them with institutional-grade tools.
-* **Competitive Fee Structure:** Leverage Solana's low transaction costs to offer significantly lower fees than Ethereum-based competitors, making frequent trading economically viable.
-* **Educational Content:** Create comprehensive guides and tutorials on leveraged trading, risk management, and platform features to onboard users new to decentralized leverage.
-* **Referral and Reward Programs:** Implement user referral systems and early adopter rewards, including planned token airdrops for active beta users.
-* **Integration Strategy:** Develop APIs and SDKs for integration with portfolio trackers, trading bots, and other DeFi tools to expand platform reach.
+* **Target Underserved Markets:** Focus on traders seeking leverage on ERC-20 tokens not available on major CEXs, particularly DeFi token traders and emerging protocol speculators who are underserved by existing platforms.
+* **Competitive Fee Structure:** Leverage Zircuit's low transaction costs to maintain significantly lower fees than centralized alternatives while offering superior token selection and true decentralization.
+* **Educational Content:** Create comprehensive guides and tutorials on leveraged trading, risk management, and Layer 2 DeFi strategies to onboard users new to decentralized leverage.
+* **Referral and Reward Programs:** Implement user referral systems and trading incentives to encourage organic growth and reward early adopters.
+* **Integration Strategy:** Integrate with popular Ethereum wallets, Layer 2 portfolio trackers, and DeFi dashboards to meet users where they already interact with the ecosystem.
 
 ## Anticipated Traction and Growth
 
-* **Phase 1 (Months 1-3):** Scale from current beta users to 1,000+ active traders, focusing on memecoin and experimental token markets with $10M+ monthly trading volume.
-* **Phase 2 (Months 4-6):** Expand to 5,000+ users and $50M+ monthly volume as leverage increases to 5-10x and more token markets are added, attracting serious DeFi traders.
-* **Phase 3 (Months 7-12):** Achieve 10,000+ active users and $200M+ monthly volume with full 100x leverage capability, positioning as the go-to platform for Solana leveraged trading.
-* **Long-term Growth:** Capture significant market share of Solana's derivative trading volume, potentially reaching $1B+ monthly volume as the ecosystem matures and institutional adoption increases.
-* **Network Effects:** As more traders use the platform, increased liquidity and tighter spreads will attract additional users, creating a positive feedback loop that strengthens market position.
+* **Phase 1 (Months 1-2):** Expand beta user base from current 100+ to 500+ active traders with $5M+ monthly trading volume leveraging Zircuit's performance advantages
+* **Phase 2 (Months 3-4):** Reach 1,000+ active users and $15M+ monthly volume through platform improvements and Zircuit ecosystem integration
+* **Phase 3 (Months 5-6):** Achieve 2,000+ active users and $25M+ monthly volume with token launch and governance implementation
+* **Long-term (6+ months):** Target 10,000+ active users and $100M+ monthly volume as the platform matures and captures market share from centralized alternatives
+
+**Market Share Capture:** With Zircuit's Layer 2 ecosystem growing and increasing demand for efficient decentralized leverage, Lemonloopa is positioned to capture a significant portion of the leveraged trading market by offering unique capabilities with superior performance.
+
+**Network Effects:** As more users join the platform, increased trading volume improves liquidity and reduces slippage, creating a positive feedback loop that attracts additional users and trading activity while benefiting from Zircuit's scalable infrastructure.

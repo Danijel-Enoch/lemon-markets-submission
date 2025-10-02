@@ -22,7 +22,7 @@
 
 ## Executive Description
 
-Lemonloopa is a decentralized leveraged trading platform built on Solana that enables leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun. Currently operating in beta with a 2x maximum leverage cap, Lemonloopa is designed to scale up to 100x leverage as liquidity expands. The platform solves the gap in decentralized leverage trading by delivering a trustless, transparent solution where all positions are secured using Solana PDAs, smart contracts automatically execute trading logic, and users retain custody of their funds until settlement with simple, transparent, and predictable fees.
+Lemonloopa is a decentralized leveraged trading platform built on Zircuit that enables leveraged trading on any ERC-20 token, including emerging DeFi protocols and experimental tokens. Currently operating in beta with a 2x maximum leverage cap, Lemonloopa is designed to scale up to 100x leverage as liquidity expands. The platform solves the gap in decentralized leverage trading by delivering a trustless, transparent solution where all positions are secured using Zircuit's advanced smart contract architecture, automated trading logic, and users retain custody of their funds until settlement with simple, transparent, and predictable fees.
 
 ## Table of Contents
 

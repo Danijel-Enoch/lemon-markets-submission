@@ -2,12 +2,12 @@
 
 ## Protocol Economics
 
-Lemonloopa operates on a simple and transparent fee structure designed to generate sustainable revenue while keeping trading costs predictable for users. All fees are collected in SOL and routed directly to the Lemonloopa treasury during the current beta phase.
+Lemonloopa operates on a simple and transparent fee structure designed to generate sustainable revenue while keeping trading costs predictable for users. All fees are collected in ETH and routed directly to the Lemonloopa treasury during the current beta phase.
 
 **Fee Structure:**
 * Base fee: 0.05% per position
 * Leverage fee: 0.05% per leverage unit (e.g., 2x leverage = 0.1% total fee in beta)
-* Minimum trade size: 0.01 SOL
+* Minimum trade size: 0.01 ETH
 
 This structure ensures that fees scale proportionally with risk and position size, creating a sustainable revenue model that grows with platform usage. 
 
@@ -23,7 +23,7 @@ Lemonloopa is currently token-free during the beta phase, focusing on product de
 
 ## Planned Tokenomics Overview
 
-* **Token Name:** LOOP (proposed governance and utility token)
+* **Token Name:** LOOP (proposed ERC-20 governance and utility token on Zircuit)
 * **Total Supply:** To be determined based on community feedback and platform metrics
 * **Supply Distribution (Preliminary):**
   * Community allocation: 50% (airdrops to beta users, liquidity incentives, ecosystem growth)
@@ -37,4 +37,4 @@ Lemonloopa is currently token-free during the beta phase, focusing on product de
   * Potential fee discounts for token holders
   * Staking rewards for protocol security and governance participation
 
-* **Economic Incentive:** The token creates a sustainable revenue model where utility and value are directly tied to DEX usage, ensuring alignment between token holders and protocol growth while rewarding early community members who contribute to platform development.
+* **Economic Incentive:** The token creates a sustainable revenue model where utility and value are directly tied to DEX usage, ensuring alignment between token holders and protocol growth while rewarding early community members who contribute to platform development. Built on Zircuit's efficient infrastructure for optimal token performance.

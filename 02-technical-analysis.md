@@ -2,55 +2,62 @@
 
 ## Technical Outline
 
-Lemonloopa is a decentralized leveraged trading platform built on Solana that enables leveraged trading on any Fungible SPL-Token. The platform utilizes Solana's Program Derived Accounts (PDAs) to secure positions, smart contracts to automate trading logic, and an oracle system for real-time price feeds. The architecture consists of four core smart contract instructions: Initialize Position, DEX Modify, User Modify, and Process PnL, supported by a lightweight web client and off-chain oracle infrastructure.
+Lemonloopa is a decentralized leveraged trading platform built on Zircuit using advanced smart contract architecture to secure user positions while enabling leveraged exposure to any ERC-20 token. The architecture consists of four core smart contract functions that handle the complete lifecycle of leveraged positions:
+
+1. **Initialize Position:** Creates a new leveraged position with specified parameters (token, leverage, direction)
+2. **DEX Modify:** Handles automated position adjustments based on market movements and liquidation thresholds
+3. **User Modify:** Allows users to manually adjust their positions (add collateral, partial close, etc.)
+4. **Process PnL:** Calculates and settles profit/loss when positions are closed or liquidated
+
+The platform integrates with Zircuit-native DEXs and cross-chain bridges for price discovery and trade execution, while maintaining a lightweight client infrastructure built with modern web technologies and Zircuit's optimized RPC endpoints for superior performance and user experience.
 
 ## Technical Novelty
 
-* **Universal SPL-Token Leverage:**
-  First platform to enable leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun, without requiring token whitelisting or complex listing processes.
+* **Universal ERC-20 Leverage:**
+  First platform to enable leveraged trading on any ERC-20 token on Zircuit, including emerging DeFi tokens and experimental protocols, without requiring centralized exchange listings.
 
-* **PDA-Based Position Security:**
-  Utilizes Solana's Program Derived Accounts (PDAs) to create deterministic, secure position storage where each position gets its own PDA, ensuring user funds remain locked until settlement without custodial risk.
+* **Advanced Smart Contract Security:**
+  Utilizes Zircuit's enhanced security features and optimized execution environment to create trustless, non-custodial leveraged positions where users maintain control of their funds until settlement.
 
 * **Scalable Leverage Architecture:**
-  Designed to scale from current 2x beta leverage to 100x leverage as liquidity expands, with dynamic risk management and automatic liquidation mechanisms.
+  Designed to progressively increase leverage from 2x to 100x as liquidity and user base grow, with automated risk management systems leveraging Zircuit's fast finality.
 
 * **Simplified Smart Contract Design:**
-  Four core instructions handle all trading operations: Initialize Position (create leveraged positions), DEX Modify (authorized market updates), User Modify (position adjustments), and Process PnL (settlement), creating a clean and auditable codebase.
+  Four core functions handle all position lifecycle management, reducing complexity and attack surface compared to multi-contract perpetual systems while benefiting from Zircuit's gas optimization.
 
 ## Technical Feasibility
 
-* **Solana Program Architecture:**
-  Built using Solana's Rust-based program model, leveraging the network's high throughput (65,000+ TPS) and low transaction costs (~$0.00025), making frequent position updates and settlements economically viable.
+* **Proven EVM Compatibility:**
+  Built on Zircuit's EVM-compatible architecture with extensive testing and deployment capabilities leveraging existing Ethereum tooling and security practices.
 
-* **Proven PDA Security Model:**
-  Program Derived Accounts are a battle-tested Solana feature used by major protocols like Serum and Raydium, providing deterministic address generation and secure fund custody without private key management.
+* **Enhanced Security Model:**
+  Zircuit's advanced security features provide cryptographically secure position management without requiring users to transfer custody of their funds.
 
-* **Lightweight Client Infrastructure:**
-  Web client built with vanilla JavaScript and Solana web3.js provides direct blockchain connection without intermediaries, ensuring decentralization while maintaining responsive user experience across desktop and mobile.
+* **Optimized Client Infrastructure:**
+  Modern web client architecture optimized for Zircuit's fast RPC endpoints, ensuring broad compatibility and superior user experience.
 
 * **Oracle Integration:**
-  Off-chain oracle system monitors markets in real-time and feeds prices directly into contracts, with plans for decentralized oracle distribution to eliminate single points of failure.
+  Seamless integration with Zircuit-compatible price oracles and cross-chain price feeds for real-time position valuation and liquidation triggers.
 
 ## Required Infrastructure
 
-* **Solana RPC Nodes:** High-performance RPC endpoints for real-time blockchain interaction and transaction processing
-* **Price Oracle System:** Off-chain oracle infrastructure monitoring token prices across multiple DEXs and feeding data to smart contracts
-* **Web Client Hosting:** Lightweight HTML5/JavaScript frontend with direct Solana web3.js integration
-* **Monitoring & Analytics:** Real-time position monitoring, liquidation tracking, and protocol analytics dashboard
+* **Zircuit RPC Nodes:** Reliable access to Zircuit network for transaction processing and state queries
+* **Price Oracle System:** Real-time price feeds for supported tokens, leveraging Zircuit's oracle infrastructure with plans for decentralized feeds
+* **Web Client Hosting:** CDN and hosting infrastructure for the optimized trading interface
+* **Monitoring and Analytics:** Systems for tracking platform performance, user metrics, and risk management leveraging Zircuit's enhanced observability
 
 ## Anticipated Execution Difficulty
 
 * **Smart Contract Security:**
-  Rust-based Solana programs require careful memory management and account validation. Comprehensive testing and progressive open-sourcing will ensure security, with plans for professional audits before mainnet scaling.
+  Ensuring robust security for leveraged positions requires careful audit and testing, particularly for liquidation mechanisms and fund custody management.
 
-* **Oracle Reliability and Decentralization:**
-  Current centralized oracle system presents a single point of failure. Transitioning to decentralized price feeds while maintaining accuracy and preventing manipulation attacks requires careful architecture design.
+* **Oracle Reliability:**
+  Dependence on accurate, timely price feeds creates potential points of failure that must be mitigated through redundancy and cross-chain oracle integration.
 
 * **Liquidation Mechanism Optimization:**
-  Implementing efficient liquidation systems that protect user funds while maintaining protocol solvency, especially as leverage scales from 2x to 100x, requires sophisticated risk management algorithms.
+  Balancing efficient liquidations with user protection requires fine-tuning of parameters and thresholds while leveraging Zircuit's fast finality.
 
-* **Solana Network Dependencies:**
-  Platform relies entirely on Solana's uptime and stability. Network congestion or outages could impact trading operations, requiring robust error handling and recovery mechanisms.
+* **Cross-Chain Integration:**
+  Platform may require integration with other networks for comprehensive token support, necessitating robust bridge security and monitoring.
 
-Overall, technical feasibility is high due to Solana's mature ecosystem and proven PDA architecture. The modular design with four core instructions provides clear separation of concerns, making the system auditable and maintainable while managing execution risks through iterative development and testing.
+Overall, technical feasibility is high due to Zircuit's optimized Layer 2 architecture and proven EVM compatibility. The modular design with four core functions provides clear separation of concerns, making the system auditable and maintainable while managing execution risks through iterative development and testing.
