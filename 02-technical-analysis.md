@@ -1,55 +1,56 @@
-# Instructions
-
-- remove the instructions section when done
-- provide brief technical outline of your project
-- make us understand the technical novelty in your solution
-- demonstrate the technical feasibility
-- talk about the required infrastructure needed
-- describe is the anticipated difficulty of executing 
-- stay close to the recommended length (2 pages)
-
 # 02. Technical Analysis
 
 ## Technical Outline
 
-Uniswap V2 is a decentralized, Ethereum-based exchange protocol enabling the automated trading of ERC-20 tokens via smart-contract liquidity pools. Users can swap tokens directly without intermediaries, deposit tokens into liquidity pools, and earn fees proportionally. Uniswap V2 extends the automated market maker (AMM) concept, introducing flexible token pairing, flash swaps, and robust on-chain price oracle capabilities.
+Lemonloopa is a decentralized leveraged trading platform built on Solana that enables leveraged trading on any Fungible SPL-Token. The platform utilizes Solana's Program Derived Accounts (PDAs) to secure positions, smart contracts to automate trading logic, and an oracle system for real-time price feeds. The architecture consists of four core smart contract instructions: Initialize Position, DEX Modify, User Modify, and Process PnL, supported by a lightweight web client and off-chain oracle infrastructure.
 
 ## Technical Novelty
 
-* **Flexible Token Pairing:**
-  Unlike earlier AMM protocols (e.g., Bancor), Uniswap V2 supports direct pairing of any two ERC-20 tokens without requiring a native intermediary token, reducing friction and improving liquidity efficiency.
+* **Universal SPL-Token Leverage:**
+  First platform to enable leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun, without requiring token whitelisting or complex listing processes.
 
-* **Flash Swaps:**
-  Uniswap V2 introduces flash swaps, allowing users to instantly borrow any ERC-20 tokens from pools and perform arbitrage or refinancing actions within a single atomic transaction.
+* **PDA-Based Position Security:**
+  Utilizes Solana's Program Derived Accounts (PDAs) to create deterministic, secure position storage where each position gets its own PDA, ensuring user funds remain locked until settlement without custodial risk.
 
-* **On-Chain Price Oracles:**
-  Built-in decentralized oracles provide secure, manipulation-resistant price feeds based on weighted-average token prices, enhancing integration security for external decentralized finance (DeFi) applications.
+* **Scalable Leverage Architecture:**
+  Designed to scale from current 2x beta leverage to 100x leverage as liquidity expands, with dynamic risk management and automatic liquidation mechanisms.
+
+* **Simplified Smart Contract Design:**
+  Four core instructions handle all trading operations: Initialize Position (create leveraged positions), DEX Modify (authorized market updates), User Modify (position adjustments), and Process PnL (settlement), creating a clean and auditable codebase.
 
 ## Technical Feasibility
 
-* **Proven Smart Contract Model:**
-  Uniswap V2 employs Ethereum smart contracts written in Solidity, a widely adopted language with established developer ecosystems, libraries, and tools, enhancing development feasibility and security assurance.
+* **Solana Program Architecture:**
+  Built using Solana's Rust-based program model, leveraging the network's high throughput (65,000+ TPS) and low transaction costs (~$0.00025), making frequent position updates and settlements economically viable.
 
-* **Automated Market Maker (AMM):**
-  AMM technology is robust and extensively tested, facilitating decentralized liquidity management and trades without centralized control, clearly demonstrating practical feasibility and resilience.
+* **Proven PDA Security Model:**
+  Program Derived Accounts are a battle-tested Solana feature used by major protocols like Serum and Raydium, providing deterministic address generation and secure fund custody without private key management.
 
-* **Security and Auditing:**
-  Ethereum smart contracts provide transparency, immutability, and verifiability. The availability of professional auditing services and a community-driven security review ecosystem ensures vulnerabilities can be proactively identified and resolved.
+* **Lightweight Client Infrastructure:**
+  Web client built with vanilla JavaScript and Solana web3.js provides direct blockchain connection without intermediaries, ensuring decentralization while maintaining responsive user experience across desktop and mobile.
+
+* **Oracle Integration:**
+  Off-chain oracle system monitors markets in real-time and feeds prices directly into contracts, with plans for decentralized oracle distribution to eliminate single points of failure.
 
 ## Required Infrastructure
 
-* **Oracles:** Native built-in price oracles (TWAP-based on-chain oracle)
-* **Subgraphs:** We need to index the on-chain data to provide a user-friendly interface and enable users to interact with the protocol.
+* **Solana RPC Nodes:** High-performance RPC endpoints for real-time blockchain interaction and transaction processing
+* **Price Oracle System:** Off-chain oracle infrastructure monitoring token prices across multiple DEXs and feeding data to smart contracts
+* **Web Client Hosting:** Lightweight HTML5/JavaScript frontend with direct Solana web3.js integration
+* **Monitoring & Analytics:** Real-time position monitoring, liquidation tracking, and protocol analytics dashboard
 
 ## Anticipated Execution Difficulty
 
 * **Smart Contract Security:**
-  Achieving secure smart contract code is critical. Audits and rigorous testing protocols will mitigate risk, but thorough code reviews and iterative testing are essential.
+  Rust-based Solana programs require careful memory management and account validation. Comprehensive testing and progressive open-sourcing will ensure security, with plans for professional audits before mainnet scaling.
 
-* **Price Oracle Reliability:**
-  Ensuring manipulation-resistant oracles requires careful design of price averaging mechanisms and safeguards against flash-loan attacks and rapid price fluctuations.
+* **Oracle Reliability and Decentralization:**
+  Current centralized oracle system presents a single point of failure. Transitioning to decentralized price feeds while maintaining accuracy and preventing manipulation attacks requires careful architecture design.
 
-* **Scalability and Gas Optimization:**
-  Ethereum network congestion and gas costs may impact user experience. Strategies for optimizing contract logic for gas efficiency, as well as future compatibility with Ethereum scaling solutions (Layer 2 protocols such as Optimism or Arbitrum), will be required to address scalability.
+* **Liquidation Mechanism Optimization:**
+  Implementing efficient liquidation systems that protect user funds while maintaining protocol solvency, especially as leverage scales from 2x to 100x, requires sophisticated risk management algorithms.
 
-Overall, the technical feasibility is high due to Ethereum's mature tooling and developer ecosystem. The novel features introduced in Uniswap V2 provide clear differentiation, presenting manageable execution risks with appropriate risk mitigation strategies.
+* **Solana Network Dependencies:**
+  Platform relies entirely on Solana's uptime and stability. Network congestion or outages could impact trading operations, requiring robust error handling and recovery mechanisms.
+
+Overall, technical feasibility is high due to Solana's mature ecosystem and proven PDA architecture. The modular design with four core instructions provides clear separation of concerns, making the system auditable and maintainable while managing execution risks through iterative development and testing.

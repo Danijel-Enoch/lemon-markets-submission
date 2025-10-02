@@ -1,29 +1,23 @@
-# Instructions
-
-- remove the instructions section when done
-- tell us what the goal of the app is, and what problem it solves 
-- relate your project to the closest competitor
-- describe what makes your app unique
-- stay close to the recommended length (1 page)
-
 # 01. Project Description
 
 ## **Goal and Problem Solved**
 
-Uniswap V2 is a decentralized, Ethereum-based exchange protocol enabling the automated trading of ERC-20 tokens via smart-contract liquidity pools. Users can swap tokens directly without intermediaries, deposit tokens into liquidity pools, and earn fees proportionally. Uniswap V2 extends the automated market maker (AMM) concept, introducing flexible token pairing, flash swaps, and robust on-chain price oracle capabilities.
+Lemonloopa is a decentralized leveraged trading platform built on Solana that enables leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun. The platform addresses critical gaps in the current DeFi ecosystem where centralized exchanges force users to entrust funds to third parties, facing constant risks of shutdowns, liquidity crises, hacks, and opaque operations. Meanwhile, existing decentralized exchanges either lack advanced tools like leverage or burden traders with confusing fee structures. Most importantly, many Solana tokens—especially memecoins—never reach the stage where centralized platforms provide LONG/SHORT derivatives, often requiring massive listing fees before derivative trading becomes possible.
 
 ## **Closest Competitor**
 
-The closest competitor is Bancor, an earlier automated market maker protocol that similarly provides decentralized token trading using liquidity pools and smart contracts. Bancor pioneered the AMM model; however, it requires tokens to be paired with its native token (BNT), introducing additional friction and intermediary dependencies.
+The closest competitors are centralized leveraged trading platforms like Binance Futures and decentralized perpetual protocols like dYdX or GMX. However, centralized platforms require custody of user funds and lack transparency, while existing decentralized perpetual protocols are primarily focused on major tokens and often have complex fee structures that discourage trading activity.
 
 ## **Unique Differentiators**
 
-* **Token Pair Flexibility:** Unlike Bancor, Uniswap V2 enables liquidity pools consisting of any two ERC-20 tokens directly, without requiring a native intermediary token. This significantly enhances liquidity, usability, and efficiency.
+* **Any SPL-Token Support:** Unlike competitors focused on major tokens, Lemonloopa enables leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun, opening derivative trading to the entire Solana ecosystem.
 
-* **Price Oracle Capability:** Uniswap V2 incorporates decentralized on-chain price oracle functionalities, allowing external decentralized applications to securely reference token prices without reliance on off-chain data feeds, enhancing security and composability across DeFi applications.
+* **True Decentralization with Custody:** All positions are secured using Solana Program Derived Accounts (PDAs) with smart contracts automatically executing trading logic. Users retain custody of their funds until settlement, eliminating counterparty risk.
 
-* **Flash Swaps:** Uniswap V2 introduces flash swaps, allowing developers to borrow tokens instantly and execute arbitrage or refinancing opportunities atomically within a single Ethereum transaction, greatly expanding possibilities for sophisticated decentralized financial strategies.
+* **Simple Fee Structure:** Transparent and predictable fees with a base fee of 0.05% per position and leverage fee of 0.05% per leverage unit, avoiding the complex and confusing fee structures that plague other platforms.
 
-* **Censorship Resistance and Security:** The decentralized nature of Uniswap V2's smart contracts and liquidity pools eliminates single points of failure and custodial risk, promoting resilience against censorship, hacks, or downtime that traditional centralized exchanges suffer.
+* **Scalable Leverage:** Currently operating at 2x leverage in beta with plans to scale up to 100x leverage as liquidity expands, providing flexibility for both conservative and aggressive trading strategies.
 
-Uniswap V2 stands uniquely positioned to be the foundational infrastructure for decentralized token exchanges, promoting open finance innovation and accessibility.
+* **Solana Performance:** Built on Solana's high-speed, low-cost network, enabling efficient leveraged trading without the high gas fees and slow confirmation times of Ethereum-based competitors.
+
+Lemonloopa stands uniquely positioned to democratize leveraged trading across the entire Solana token ecosystem, providing institutional-grade tools with full decentralization and transparency.

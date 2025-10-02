@@ -13,7 +13,7 @@
 4. Share the repository with Github user @zircuit-grants2025
 5. Submit your application via [Zircuit's Builder Hub](https://app.zircuit.com/build2025)
 
-# Uniswap V2
+# Lemonloopa
 
 ## Track
 
@@ -22,7 +22,7 @@
 
 ## Executive Description
 
-Uniswap V2 is a decentralized exchange protocol that enables automated, trustless, and censorship-resistant trading of ERC-20 tokens on the Ethereum blockchain. It solves the inefficiencies and vulnerabilities inherent in traditional centralized exchanges—such as reliance on trusted intermediaries, centralized points of failure, custodial risks, and liquidity fragmentation—by utilizing smart contracts and automated market maker (AMM) mechanisms. The primary goal of Uniswap V2 is to facilitate transparent, permissionless, and highly liquid token swaps while providing a robust infrastructure for decentralized finance (DeFi) applications.
+Lemonloopa is a decentralized leveraged trading platform built on Solana that enables leveraged trading on any Fungible SPL-Token, including pre-launch and experimental tokens from platforms like pump.fun. Currently operating in beta with a 2x maximum leverage cap, Lemonloopa is designed to scale up to 100x leverage as liquidity expands. The platform solves the gap in decentralized leverage trading by delivering a trustless, transparent solution where all positions are secured using Solana PDAs, smart contracts automatically execute trading logic, and users retain custody of their funds until settlement with simple, transparent, and predictable fees.
 
 ## Table of Contents
 
@@ -35,7 +35,8 @@ Uniswap V2 is a decentralized exchange protocol that enables automated, trustles
 
 ## Contact Information
 
-* **Website:** [www.uniswap.org](https://uniswap.org)
-* **Name:** Aragorn Elessar
-* **Email:** [aragorn@lotr.org](mailto:aragorn@lotr.org)
-* **Telegram:** [@aragorn\_uniswapv2](https://t.me/aragorn_uniswapv2)
+* **Website:** To be announced
+* **Name:** sakidev
+* **Email:** [contact@lemonloopa.com](mailto:contact@lemonloopa.com)
+* **Twitter:** [@lemonloopa](https://twitter.com/lemonloopa)
+* **Telegram:** [@sakidev_lemonloopa](https://t.me/sakidev_lemonloopa)

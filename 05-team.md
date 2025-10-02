@@ -1,23 +1,21 @@
-# Instructions
-
-- remove the instructions section when done
-- talk about the team and their experience
-- tell us about the special sauce that will make you successful
-- stay close to the recommended length (0.5 page)
-
 # Team
 
-## Team and Experience
+## Team Experience and "Special Sauce"
 
-* **Gandalf the Grey – Chief Architect**
-  Gandalf brings deep technical mastery and strategic foresight in decentralized systems architecture, with extensive experience in protocol design, cryptographic security, and blockchain governance. His proven track record in building resilient, trustless solutions is unmatched.
+**sakidev** - *Founder & Lead Developer*
 
-* **Aragorn – Product Lead**
-  Aragorn's leadership and product execution skills are central to the Uniswap V2 vision. With extensive experience leading diverse teams, managing complex projects, and driving user-centric product development, Aragorn ensures disciplined delivery aligned with user needs.
+* 10+ years of full-stack engineering experience with deep expertise in high-performance systems and real-time applications.
+* Extensive background in multiplayer online game development during the .io game era, building systems that handle thousands of concurrent users with sub-100ms latency requirements.
+* **EV.IO (3 years):** Core contributor to NFT mechanics, crafting systems, and trading infrastructure for one of the leading blockchain gaming platforms, gaining deep experience with digital asset management and trading systems.
+* **Fractal.is:** Contributed to NFT marketplace and gaming infrastructure development, understanding the complexities of decentralized asset trading and user experience optimization.
+* **Solana & Rust Specialist:** Deep expertise in Solana's program model, Program Derived Accounts (PDAs), and Rust-based smart contract development, with hands-on experience building production-ready decentralized applications.
+* **Trading Systems Expertise:** Combines gaming industry experience in real-time systems with DeFi knowledge to create responsive, user-friendly trading interfaces.
 
-* **Legolas – Lead Developer**
-  Legolas combines precise technical execution with exceptional agility in Ethereum smart contract development. Known for meticulous code quality, rapid iteration, and sharp debugging skills, he ensures Uniswap V2’s codebase remains secure, efficient, and reliable.
+**What makes our team special:**
 
-## Special Sauce
-
-The team uniquely combines Gandalf’s visionary protocol expertise, Aragorn’s strategic product execution, and Legolas’s technical precision and agility—forming a resilient, innovative, and efficient unit positioned to revolutionize decentralized exchanges.
+* **Real-Time Systems Mastery:** sakidev's gaming background provides unique expertise in building low-latency, high-throughput systems essential for responsive trading experiences.
+* **Solana Native Development:** Deep understanding of Solana's architecture, including PDAs, cross-program invocations, and optimization techniques that many Ethereum-focused teams lack.
+* **User-Centric Design:** Experience building consumer-facing applications with millions of users translates to intuitive UX design for complex DeFi products.
+* **Iterative Development Philosophy:** Proven approach of building based on user feedback rather than rigid roadmaps, ensuring product-market fit through continuous iteration.
+* **Open Source Commitment:** Plans to progressively open-source the codebase demonstrate commitment to transparency and community involvement.
+* **Lean and Focused:** Single-founder structure enables rapid decision-making and pivoting based on market feedback, while maintaining clear technical vision and execution.
