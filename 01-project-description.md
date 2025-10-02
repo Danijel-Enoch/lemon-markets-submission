@@ -1,5 +1,14 @@
 # 01. Project Description
 
+## Table of Contents
+
+1. [Project Description](01-project-description.md)
+2. [Technical Analysis](02-technical-analysis.md)
+3. [Economics and Token](03-economics-and-token.md)
+4. [Market Analysis](04-market-analysis.md)
+5. [Team](05-team.md)
+6. [Roadmap and Milestones](06-roadmap-and-milestones.md)
+
 ## **Goal and Problem Solved**
 
 Lemonloopa is a decentralized leveraged trading platform built on Zircuit that enables leveraged trading on any ERC-20 token, including pre-launch and experimental tokens from emerging DeFi protocols. The platform addresses critical gaps in the current DeFi ecosystem where centralized exchanges force users to entrust funds to third parties, facing constant risks of shutdowns, liquidity crises, hacks, and opaque operations. Meanwhile, existing decentralized exchanges either lack advanced tools like leverage or burden traders with confusing fee structures. Most importantly, many Zircuit tokens—especially emerging DeFi tokens—never reach the stage where centralized platforms provide LONG/SHORT derivatives, often requiring massive listing fees before derivative trading becomes possible.
