@@ -7,7 +7,9 @@
 
 ## Executive Description
 
-Lemon Markets is a decentralized leveraged trading platform built on Zircuit that enables leveraged trading on any ERC-20 token, including emerging DeFi protocols and experimental tokens. Currently operating in beta with a 2x maximum leverage cap, Lemon Markets is designed to scale up to 100x leverage as liquidity expands. The platform solves the gap in decentralized leverage trading by delivering a trustless, transparent solution where all positions are secured using Zircuit's advanced smart contract architecture, automated trading logic, and users retain custody of their funds until settlement with simple, transparent, and predictable fees.
+Lemon Markets is the world's first permissionless peer-to-peer perpetual DEX built on Zircuit that enables traders to LONG or SHORT any ERC-20 token without restrictions. Born from pure frustration watching obvious market bubbles with no way to profit from the downside, Lemon Markets operates on a revolutionary principle: traders trading traders. No liquidity providers. No token listings. No gatekeepers. No permission needed.
+
+Whether it's memecoins, xStocks, prediction markets, or RWA tokens, if it's an ERC-20, you can trade it with synthetic leverage in a true peer-to-peer environment where Longs pay Shorts and Shorts pay Longs. The platform automatically creates markets for any token, manages isolated liquidity pools, and ensures risk-limited trading where maximum loss is always capped at initial margin.
 
 ## Table of Contents
 
