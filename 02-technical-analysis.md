@@ -2,7 +2,7 @@
 
 ## Technical Outline
 
-Lemonloopa is a decentralized leveraged trading platform built on Zircuit using advanced smart contract architecture to secure user positions while enabling leveraged exposure to any ERC-20 token. The architecture consists of four core smart contract functions that handle the complete lifecycle of leveraged positions:
+Lemon Markets is a decentralized leveraged trading platform built on Zircuit using advanced smart contract architecture to secure user positions while enabling leveraged exposure to any ERC-20 token. The architecture consists of four core smart contract functions that handle the complete lifecycle of leveraged positions:
 
 1. **Initialize Position:** Creates a new leveraged position with specified parameters (token, leverage, direction)
 2. **DEX Modify:** Handles automated position adjustments based on market movements and liquidation thresholds

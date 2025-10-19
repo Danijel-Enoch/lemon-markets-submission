@@ -2,7 +2,7 @@
 
 ## Protocol Economics
 
-Lemonloopa operates on a simple and transparent fee structure designed to generate sustainable revenue while keeping trading costs predictable for users. All fees are collected in ETH and routed directly to the Lemonloopa treasury during the current beta phase.
+Lemon Markets operates on a simple and transparent fee structure designed to generate sustainable revenue while keeping trading costs predictable for users. All fees are collected in ETH and routed directly to the Lemon Markets treasury during the current beta phase.
 
 **Fee Structure:**
 * Base fee: 0.05% per position
@@ -13,7 +13,7 @@ This structure ensures that fees scale proportionally with risk and position siz
 
 ## Token Role
 
-Lemonloopa is currently token-free during the beta phase, focusing on product development and user acquisition without the complexity of token mechanics. However, a native token launch is planned to introduce:
+Lemon Markets is currently token-free during the beta phase, focusing on product development and user acquisition without the complexity of token mechanics. However, a native token launch is planned to introduce:
 
 **Governance Rights:** Token holders will vote on protocol upgrades, parameter adjustments, fee structures, and new feature implementations, ensuring decentralized decision-making as the platform matures.
 

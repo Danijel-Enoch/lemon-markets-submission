@@ -2,7 +2,7 @@
 
 ## Current Development State
 
-Lemonloopa is currently operating in live beta on Zircuit with core functionality fully implemented and tested. The platform successfully handles real user positions with 2x leverage cap, featuring all four core smart contract functions (Initialize Position, DEX Modify, User Modify, Process PnL). The web client built with modern JavaScript and Zircuit-optimized libraries is live and functional, with an active user base testing the platform. The oracle system is operational, providing real-time price feeds for position management and liquidations.
+Lemon Markets is currently operating in live beta on Zircuit with core functionality fully implemented and tested. The platform successfully handles real user positions with 2x leverage cap, featuring all four core smart contract functions (Initialize Position, DEX Modify, User Modify, Process PnL). The web client built with modern JavaScript and Zircuit-optimized libraries is live and functional, with an active user base testing the platform. The oracle system is operational, providing real-time price feeds for position management and liquidations.
 
 ## Tasks for Successful Launch
 

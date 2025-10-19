@@ -18,8 +18,8 @@ Brings a product-first mindset that connects the dots between technical complexi
 * Experienced in guiding development teams to balance engineering feasibility with user-centric outcomes, ensuring features align with both vision and market demand.
 * **Mintyplex Collaboration:** Worked closely with backend engineers to shape technical specifications, prioritize feature sets, and streamline the product roadmap.
 * Skilled at requirements gathering, cross-functional communication, and backlog prioritization — translating user feedback into clear technical deliverables.
-* Deep familiarity with DeFi mechanics, trading flows, and risk management, enabling effective oversight of Lemonloopa's roadmap from MVP to scaling.
-* Acts as the bridge between engineering and end users, ensuring Lemonloopa evolves iteratively with community feedback rather than rigid, top-down planning.
+* Deep familiarity with DeFi mechanics, trading flows, and risk management, enabling effective oversight of Lemon Markets' roadmap from MVP to scaling.
+* Acts as the bridge between engineering and end users, ensuring Lemon Markets evolves iteratively with community feedback rather than rigid, top-down planning.
 
 ## What Makes Our Team Special
 
@@ -27,5 +27,5 @@ Brings a product-first mindset that connects the dots between technical complexi
 * **Complementary Skill Sets:** One founder builds the systems, the other ensures those systems align with product-market fit.
 * **DeFi + NFT Infrastructure Knowledge:** Direct experience building marketplaces, smart contracts, and decentralized apps across Solana, Near, and EVM-compatible chains.
 * **Iterative Development Philosophy:** A lean team that adapts quickly, shipping and refining based on real-world usage and trader feedback.
-* **Transparency Commitment:** Plans to progressively open-source components of Lemonloopa, fostering trust and community participation.
+* **Transparency Commitment:** Plans to progressively open-source components of Lemon Markets, fostering trust and community participation.
 * **User-Centric Vision:** Both founders prioritize usability, ensuring advanced leverage trading tools remain intuitive and accessible.
